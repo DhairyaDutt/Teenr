@@ -1,0 +1,15 @@
+
+#career h2{
+    text-align: center;
+    
+}
+
+#career img{
+    width: 70rem;
+    height: 25rem;
+}
+
+#career .button{
+    display: flex;
+    justify-content: center;
+}
