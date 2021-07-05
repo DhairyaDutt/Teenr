@@ -1,15 +1,54 @@
 
 #career h2{
     text-align: center;
-    
+    font-size: 36px;
 }
 
 #career img{
     width: 70rem;
     height: 25rem;
+    /* left: 95px;
+    top: 225px;
+    border-radius: 0px; */
+}
+
+#career p{
+    font-size: 20px;
+    line-height: 23px;
 }
 
 #career .button{
     display: flex;
     justify-content: center;
+}
+
+.button button{
+    width: 120.67px;
+    height: 49px;
+    background: #464444;
+    border-radius: 11px;
+}
+.button button span{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFD728;
+}
+
+#career hr{
+    border: none;
+    height: 1px;
+    background: #C4C4C4;
+    margin-bottom: 5rem;
+}
+
+.image{
+    width: 8rem;
+    height: 8rem;
+}
+
+.box{
+    width: 306px;
+    height: 198px;
+    background: #FFCE00;
 }
