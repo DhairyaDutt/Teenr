@@ -1,4 +1,8 @@
 
+body{
+    background: #FFFDF2;
+}
+
 #career h2{
     text-align: center;
     font-size: 36px;
@@ -43,12 +47,36 @@
 }
 
 .image{
-    width: 8rem;
-    height: 8rem;
-}
-
-.box{
     width: 306px;
     height: 198px;
     background: #FFCE00;
+}
+
+#content .row{
+    margin-bottom: 7rem;
+    
+}
+
+#content .row h3{
+    color: #464444;
+    font-size: 22px;
+    line-height: 26px;
+    
+}
+
+#icons h2{
+    text-align: center;
+    font-size: 24px;
+}
+
+#icons .icon-image{
+    display: flex;
+    justify-content: center;
+}
+
+#icons hr{
+    border: none;
+    height: 1px;
+    background: #C4C4C4;
+    /* margin-bottom: 5rem; */
 }
