@@ -1,11 +1,13 @@
 
 body{
     background: #FFFDF2;
+    font-family: "Mulish";
 }
 
 #career h2{
     text-align: center;
     font-size: 36px;
+    font-weight: 800;
 }
 
 #career img{
@@ -19,6 +21,7 @@ body{
 #career p{
     font-size: 20px;
     line-height: 23px;
+    font-weight: 700;
 }
 
 #career .button{
@@ -47,8 +50,8 @@ body{
 }
 
 .image{
-    width: 20rem;
-    height: 20rem;
+    width: 25rem;
+    height:25rem;
     background: #FFCE00;
 }
 
@@ -59,19 +62,31 @@ body{
 
 #content .row h3{
     color: #464444;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 35px;
+    /* line-height: 26px; */
+    padding-bottom: 1.4rem;
+    font-weight: 800;
     
+}
+
+#content .row p{
+    font-size: 1.2rem;
 }
 
 #icons h2{
     text-align: center;
-    font-size: 24px;
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 #icons .icon-image{
     display: flex;
     justify-content: center;
+}
+
+#icons .icon-image img{
+    width: 60rem;
+    height: 30rem;
 }
 
 #icons hr{
