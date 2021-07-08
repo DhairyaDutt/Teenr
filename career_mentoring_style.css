@@ -150,11 +150,15 @@ body{
     }
     
     
-    #icons .icon-image img{
-        width: 26rem;
-        height: 13rem;
+    #icons .icon-image .image1{
+        display: none;
     }
     
+    #icons .icon-image .image2{
+        display: block;
+        width: 20rem;
+        height: 10rem;
+    }
 
 
 
