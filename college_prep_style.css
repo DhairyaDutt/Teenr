@@ -95,3 +95,66 @@ body{
     background: #C4C4C4;
     /* margin-bottom: 5rem; */
 }
+
+@media only screen and (max-width: 480px) {
+
+    #career h2{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    #career .landing{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #career img{
+        width: 25rem;
+        height: 12rem;
+    }
+    
+    #career p{
+        text-align: center;
+        font-size: 0.7rem;;
+    }
+     
+    .button button{
+        width: 80px;
+        height: 35px;
+    }
+    .button button span{
+        font-size: 0.8rem;
+    }
+
+
+    #content .image{
+        width: 12rem;
+        height: 15rem;
+        background: #FFCE00;
+    }
+    
+    
+    #content .row h3{
+        font-size: 1.2rem;;
+        padding-bottom: 0.4rem;
+        
+    }
+    
+    #content .row p{
+        font-size: 0.7rem;
+    }
+
+    #icons h2{
+        font-size: 1.3rem;
+    }
+    
+    
+    #icons .icon-image img{
+        width: 26rem;
+        height: 13rem;
+    }
+    
+
+
+
+}
