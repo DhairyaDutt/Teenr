@@ -1,26 +1,38 @@
-
+html, body {
+    overflow-x: hidden;
+  }
+ 
 body{
+    position: relative;
     background: #FFFDF2;
     font-family: "Mulish";
+    
 }
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
 
 #career h2{
     text-align: center;
-    font-size: 36px;
+    font-size: 2.8rem;
     font-weight: 800;
 }
 
 #career img{
     width: 70rem;
     height: 25rem;
-    /* left: 95px;
-    top: 225px;
-    border-radius: 0px; */
+
 }
 
 #career p{
-    font-size: 20px;
-    line-height: 23px;
+    text-align: center;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -30,14 +42,14 @@ body{
 }
 
 .button button{
-    width: 120.67px;
-    height: 49px;
+    width: 8rem;
+    height: 3rem;
     background: #464444;
     border-radius: 11px;
 }
 .button button span{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.3rem;
     line-height: 27px;
     color: #FFD728;
 }
@@ -49,7 +61,7 @@ body{
     margin-bottom: 5rem;
 }
 
-.image{
+#content .image{
     width: 25rem;
     height:25rem;
     background: #FFCE00;
@@ -63,7 +75,6 @@ body{
 #content .row h3{
     color: #464444;
     font-size: 35px;
-    /* line-height: 26px;s */
     padding-bottom: 1.4rem;
     font-weight: 800;
     
@@ -93,7 +104,10 @@ body{
     border: none;
     height: 1px;
     background: #C4C4C4;
-    /* margin-bottom: 5rem; */
+}
+
+#icons .image2{
+    display: none;
 }
 
 @media only screen and (max-width: 480px) {
@@ -118,6 +132,10 @@ body{
         font-size: 0.7rem;;
     }
      
+    #career hr{
+        margin-bottom: 4rem;;
+    }
+
     .button button{
         width: 80px;
         height: 35px;
@@ -126,16 +144,35 @@ body{
         font-size: 0.8rem;
     }
 
+    .left .right{
+        float: none;
+    }
+
+    #content{
+        padding: 0 3.5rem;
+    }
+
+    #content .row{
+        margin-bottom: 3rem;
+    }
+
+    #content .row .box{
+        display: flex;
+        justify-content: center;
+    }
 
     #content .image{
-        width: 12rem;
+        width: 18rem;
         height: 15rem;
         background: #FFCE00;
+        float: none;
+        
     }
     
     
     #content .row h3{
-        font-size: 1.2rem;;
+        font-size: 1.2rem;
+        padding-top: 1.4rem;
         padding-bottom: 0.4rem;
         
     }
@@ -144,16 +181,24 @@ body{
         font-size: 0.7rem;
     }
 
+
+
+
+
     #icons h2{
         font-size: 1.3rem;
     }
     
     
-    #icons .icon-image img{
-        width: 26rem;
-        height: 13rem;
+    #icons .icon-image .image1{
+        display: none;
     }
     
+    #icons .icon-image .image2{
+        width: 10rem;
+        height: 20rem;
+        display: block;
+    }
 
 
 
